@@ -49,8 +49,7 @@
     analytics: {
       google: '{{ theme.google_analytics }}'
     },
-    sidebar: '{{ theme.sidebar }}',
-    rss: {{ JSON.stringify(config) }}
+    sidebar: '{{ theme.sidebar }}'
   };
 </script>
 
